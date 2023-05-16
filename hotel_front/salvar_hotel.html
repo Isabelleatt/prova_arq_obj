@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <h1>Gerenciamento de Hotéis</h1>
+
+  <div id="create-hotel">
+    <h2>Cadastrar um Hotel</h2>
+    <form id="hotel-form">
+      <label for="estrelas">★ Estrelas:</label>
+      <input type="number" id="estrelas" name="estrelas" required>
+
+      <label for="valorDiaria">$ Valor Diária:</label>
+      <input type="number" id="valorDiaria" name="valorDiaria" step="0.01" required placeholder="0.00">
+
+      <button type="submit">Salvar</button>
+    </form>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
